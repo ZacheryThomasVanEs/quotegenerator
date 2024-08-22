@@ -1,1 +1,1 @@
-Simple quote generator.
+Simple quote generator using Zen quotes API and Eel library for the interface

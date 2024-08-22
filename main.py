@@ -10,10 +10,10 @@ def get_quote():
         data_request = request.json()
         quote = data_request[0]['q']
         author = data_request[0]['a']
-        
+
         print ("Got Quote")
 
-        return f'{quote} - {author}'
+        return f'{quote} - {author}' 
     
     except:
         return 'Error: Failed to fetch quote'
